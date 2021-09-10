@@ -1,12 +1,12 @@
 #title {
     padding-left: 50px;
 }
-#color-palette{
+#color-palette, #pixel-board {
     margin-left: 50px;
 }
 .color {
-    width:  80px;
-    height: 80px;
+    width:  40px;
+    height: 40px;
     border: 1px solid black ;
     display: inline-block;
 }
@@ -21,5 +21,16 @@
 }
 #color-palette :nth-child(4) {
     background-color: darkgreen;
+}
+.line {
+    height: 40px;
+} 
+.pixel {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid black ;
+    padding-bottom: 0px;
 }
 
