@@ -4,8 +4,8 @@ html {
 
 body {
   background-color: #f4f0e5;
-  margin: 5% 5%;
-  margin-bottom: 0px;
+  margin: 5%;
+  margin-bottom: 0;
   border-radius: 10px;
   box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
 }
@@ -23,35 +23,41 @@ body {
   margin: 1%;
   align-content: center;
 }
+
 #button-section {
   text-align: center;
   margin: 15px 1%;
 }
+
 #pixel-board {
   text-align: center;
   padding: 2%;
 }
+
 .color {
-  width:  40px;
+  width: 40px;
   height: 40px;
-  border: 1px solid black ;
-  display: inline-block;
+  border: 1px solid black;
   border-radius: 5px;
 }
+
 .line {
   height: 40px;
-} 
+}
+
 .pixel {
   width: 40px;
   height: 40px;
   background-color: white;
   display: inline-block;
-  border: 1px solid black ;
+  border: 1px solid black;
 }
+
 #board-size {
   margin-right: 10px;
   margin-top: 10px;
 }
+
 #size-section {
   text-align: center;
   margin: 1% 20%;
