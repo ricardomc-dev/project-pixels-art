@@ -1,6 +1,7 @@
 html {
   background-color: #eab723;
 }
+
 body {
   background-color: #f4f0e5;
   margin: 5% 5%;
@@ -8,6 +9,7 @@ body {
   border-radius: 10px;
   box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
 }
+
 #title {
   text-align: center;
   color: #eab723;
@@ -15,6 +17,7 @@ body {
   margin: 5px 10px;
   font-family: sans-serif;
 }
+
 #color-palette {
   text-align: center;
   margin: 1%;
